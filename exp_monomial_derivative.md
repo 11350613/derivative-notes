@@ -22,6 +22,10 @@ q(1,1)=m
 q(k, n+1) = (km - n)q(k, n) + mq(k-1, n)
 ```
 
+```math
+\text{if } k > n, \text{ then } q(k, n) = 0
+```
+
 ---
 
 ```math
