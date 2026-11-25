@@ -1,11 +1,12 @@
+
 ```math
-f = \exp(c x^{m}), \quad x, c, m \in \mathbb{C}
+f = \exp(c x^{m}+b), \quad x, c, m, b \in \mathbb{C}
 ```
 
 ---
 
 ```math
-\frac{df}{dx} = e^{cx^m} \left( q(0,1)c^0x^{0\cdot m-1} + q(1,1)c^1x^{1\cdot m-1} \right)
+\frac{df}{dx} = e^{cx^m+b} \left( q(0,1)c^0x^{0\cdot m-1} + q(1,1)c^1x^{1\cdot m-1} \right)
 ```
 
 ```math
@@ -29,7 +30,7 @@ q(k, n+1) = (km - n)q(k, n) + mq(k-1, n)
 ---
 
 ```math
-\frac{d^2f}{dx^2} = e^{cx^m} \left( q(0,2)c^0x^{0\cdot m-2} + q(1,2)c^1x^{1\cdot m-2} + q(2,2)c^2x^{2\cdot m-2} \right)
+\frac{d^2f}{dx^2} = e^{cx^m+b} \left( q(0,2)c^0x^{0\cdot m-2} + q(1,2)c^1x^{1\cdot m-2} + q(2,2)c^2x^{2\cdot m-2} \right)
 ```
 
 ```math
@@ -47,7 +48,7 @@ q(2,2)=m^2
 ---
 
 ```math
-\frac{d^3f}{dx^3} = e^{cx^m} \left( q(0,3)c^0x^{0\cdot m-3} + q(1,3)c^1x^{1\cdot m-3} + q(2,3)c^2x^{2\cdot m-3} + q(3,3)c^3x^{3\cdot m-3} \right)
+\frac{d^3f}{dx^3} = e^{cx^m+b} \left( q(0,3)c^0x^{0\cdot m-3} + q(1,3)c^1x^{1\cdot m-3} + q(2,3)c^2x^{2\cdot m-3} + q(3,3)c^3x^{3\cdot m-3} \right)
 ```
 
 ```math
@@ -69,7 +70,7 @@ q(3,3)=m^3
 ---
 
 ```math
-\frac{d^4f}{dx^4} = e^{cx^m} \left( q(0,4)c^0x^{0\cdot m-4} + q(1,4)c^1x^{1\cdot m-4} + q(2,4)c^2x^{2\cdot m-4} + q(3,4)c^3x^{3\cdot m-4} + q(4,4)c^4x^{4\cdot m-4} \right)
+\frac{d^4f}{dx^4} = e^{cx^m+b} \left( q(0,4)c^0x^{0\cdot m-4} + q(1,4)c^1x^{1\cdot m-4} + q(2,4)c^2x^{2\cdot m-4} + q(3,4)c^3x^{3\cdot m-4} + q(4,4)c^4x^{4\cdot m-4} \right)
 ```
 
 ```math
@@ -95,7 +96,7 @@ q(4,4)=m^4
 ---
 
 ```math
-\frac{d^5f}{dx^5} = e^{cx^m} \left( q(0,5)c^0x^{0\cdot m-5} + q(1,5)c^1x^{1\cdot m-5} + q(2,5)c^2x^{2\cdot m-5} + q(3,5)c^3x^{3\cdot m-5} + q(4,5)c^4x^{4\cdot m-5} + q(5,5)c^5x^{5\cdot m-5} \right)
+\frac{d^5f}{dx^5} = e^{cx^m+b} \left( q(0,5)c^0x^{0\cdot m-5} + q(1,5)c^1x^{1\cdot m-5} + q(2,5)c^2x^{2\cdot m-5} + q(3,5)c^3x^{3\cdot m-5} + q(4,5)c^4x^{4\cdot m-5} + q(5,5)c^5x^{5\cdot m-5} \right)
 ```
 
 ```math
@@ -125,7 +126,7 @@ q(5,5)=m^5
 ---
 
 ```math
-\frac{d^6f}{dx^6} = e^{cx^m} \left( q(0,6)c^0x^{0\cdot m-6} + q(1,6)c^1x^{1\cdot m-6} + q(2,6)c^2x^{2\cdot m-6} + q(3,6)c^3x^{3\cdot m-6} + q(4,6)c^4x^{4\cdot m-6} + q(5,6)c^5x^{5\cdot m-6} + q(6,6)c^6x^{6\cdot m-6} \right)
+\frac{d^6f}{dx^6} = e^{cx^m+b} \left( q(0,6)c^0x^{0\cdot m-6} + q(1,6)c^1x^{1\cdot m-6} + q(2,6)c^2x^{2\cdot m-6} + q(3,6)c^3x^{3\cdot m-6} + q(4,6)c^4x^{4\cdot m-6} + q(5,6)c^5x^{5\cdot m-6} + q(6,6)c^6x^{6\cdot m-6} \right)
 ```
 
 ```math
@@ -213,3 +214,5 @@ q(6,7) = (6\cdot m-6)q(6,6)+m q(5,6) = 21m^6(m-1)
 ```math
 q(7,7) = (7\cdot m-6)q(7,6)+m q(6,6) = m^7
 ```
+
+
